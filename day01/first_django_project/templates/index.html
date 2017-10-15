@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% for cag in cags %}
+<a href="/news/detail/{{ cag.id }}">{{ cag.cag_name }}</h1></a>
+{% endfor %}
+
+</body>
+</html>
